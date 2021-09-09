@@ -1,0 +1,13 @@
+python hello world
+normal --x insert  
+
+a append
+i insert
+o open a line below
+
+A append in the end of line
+I insert before line
+O append a line above
+
+insert --x normal  ESC
+
