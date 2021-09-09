@@ -1,0 +1,25 @@
+java hello world
+===== normal --x insert =====  
+
+a append
+i insert
+o open a line below
+
+A append in the end of line
+I insert before line
+O open a line above
+
+===== insert --x normal  ESC =====
+
+:wq
+:vs  vertical split  
+:sp  split  
+:set number  
+:q 
+% s/old words/new words/g global 
+
+===== noraml --x visual v =====
+V nomal choice
+ctrl+v block choice
+d del 
+y yank 
