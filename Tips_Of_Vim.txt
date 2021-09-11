@@ -1,0 +1,5 @@
+code is like your life , we always make mistakes , and need to correct mistakes promptly
+* when we get into Vim , we can use a/i/o to INSERT mode
+	~ ctrl+h : delete last character
+	~ ctrl+w : delete last word
+	~ ctrl+u : delete current line
