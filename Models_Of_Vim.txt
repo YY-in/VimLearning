@@ -1,8 +1,8 @@
 java hello world
 ===== normal --x insert =====  
 
-a append
-i insert
+a append before cursor
+i insert behind cursor
 o open a line below
 
 A append in the end of line

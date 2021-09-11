@@ -1,0 +1,7 @@
+As we konw ,vim NORMAL mode use hjkl to move
+* when we browse move between word usually come to be most diffictult command 
+	~ w/W : move to the head of next word
+	~ b/B : move back to the head of last word	
+	~ e/E :	move to the end of next word
+* search word between line
+	~ f{char} : move to the first character of 'char'

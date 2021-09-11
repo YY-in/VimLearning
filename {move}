@@ -1,0 +1,23 @@
+As we konw ,vim NORMAL mode use hjkl to move
+* when we browse move between word usually come to be most diffictult command 
+	~ w/W : move to the head of next word
+	~ b/B : move back to the head of last word	
+	~ e/E :	move to the end of next word
+* move cursor between line
+	~ f{char} : move to the next character we want
+	~ F{char} ; move to the last character we want
+	~ t{char} : move to the front of the next character we want
+	~ ; : next selected word
+	~ , : last selected word
+	
+	~ 0 : move to the first character of line 
+		> ^ : move to the first non-blank character of line
+	~ $ : move to the last character of line 
+		> g_ : move to the last non-blank character of line 
+* move cursor between pages
+	~ gg/G : move to front/end of page 
+	~ ctrl+o : jump history back
+	~ ctrl+i : jump history front
+	~ H/M/L : jump Head/Middle/Lower
+	~ ctrl+u /ctrl+f : (upword/forward)
+	~ zz : Middle page

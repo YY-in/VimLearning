@@ -3,3 +3,10 @@ code is like your life , we always make mistakes , and need to correct mistakes 
 	~ ctrl+h : delete last character
 	~ ctrl+w : delete last word
 	~ ctrl+u : delete current line
+	(we can use in command lines and INSERT mode)
+		>ctrl+a : set cursor in front of line
+		>ctrl+b : move cursor forward a character
+		>ctrl+f : move cursor back a characteri
+* how to switch between INSERT and NORMAL quickly
+	~ ctrl+c / ctrl+[ : to substitute for Esc
+	~ gi : in NORMAL mode we can use 'gi' switch into the last place you edit
