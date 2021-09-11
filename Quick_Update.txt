@@ -1,0 +1,37 @@
+*DELETE
+~ INSERT MODE
+	~ ctrl+w : delete a word
+	~ ctrl+u : delete a line
+	~ ctrl+h : delete a character
+~ NORMAL MODE
+	~ x : delete a character
+	~ d : delete a word 
+		(daw : delete around word consist blank)
+		(dt) : dlete to ')') use for delate all word between ()
+	~ dd : delete current line
+	~ num x/d : repeat action of x/d with appointed number
+~ VISUAL MODE
+	~ d : batch deletion
+
+*UPDATE
+~ NORMAL MODE 
+~ r : replace a character
+~ R : replace next character 
+~ s (num): substitute and switch to INSERT MODE perpetually
+~ S : delete a line and switch to INSERT MODE
+~ c : together with some text mode to quick update
+	caw /Caw
+	ct"
+	cw
+
+*SEARCH 
+~ NORMAL MODE
+~ / : search forward
+~ ? : search reverse
+~ n/* : jump to next matched text
+~ N/# : jump to last matched text
+
+NORMAL COMMAND
+~ :set hls : set highlight search
+~ :set incsearch : search while highlight
+
