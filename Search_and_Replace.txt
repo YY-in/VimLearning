@@ -1,0 +1,9 @@
+* Command of substuitute allows us to find and replace the text,moreover it supports regx
+	~ :[range]s(subsitute)/{pattern}/{string}/[flags]
+		e.g. :10,20 means 10-20 lines, % means ALL
+     	~ common [flags]
+		> g(global) which means globa variable
+		> c(confirm) which will make comfirm before we take substitution
+		> n(number) which will report the number of matched result while not change
+	~ :[range]s \{<[regx]}\{string/{flags}
+
