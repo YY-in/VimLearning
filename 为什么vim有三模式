@@ -22,4 +22,5 @@ O open a line above
 V nomal choice
 ctrl+v block choice
 d del 
-y yank 
+y yank copy
+p paste
