@@ -1,0 +1,12 @@
+Text Object 
+Like programmer, make your operation more efficient 
+* [number]<command>[text object]
+   command : d (delete),c (change),y (yank)
+   text object : w (word),s (scentence),p (paragph)
+
+* v : INNER mode
+   <command>
+   	~ i : it will select the word behind the cursor
+	~ a : it will select words and block before the cursor			
+		> i( or i) : 1*([2+3]) ->[2+3]
+		> a( or a) : 1*[(2+3)] 
