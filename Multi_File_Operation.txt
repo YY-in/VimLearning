@@ -1,0 +1,25 @@
+* Buffer 
+	~ Buffer is an opening  memory buffer of file
+	  When we open a file , Vim will load all content to a Buffer , all modifications aftrwards only
+	  target at Buffer , and not save in file directly.
+	  Only when we use ':w' the modification content will write into file.
+	~ How can we switch between Buffer
+	 	> :ls : it will list current Buffer 
+		> :b num : it will jump to the 'num' Buffer
+		> :bpre/:bnext/:bfirst/:blast : just for junp
+		> :b buffer_name : combined with tab to fill,it can implement jump: 
+* Window
+	~ Window is Buffer's visual split area 
+	  a Buffer can split into multi  Window , each Window also can open different Buffer
+		> <ctrl+w> s/:sp : standard split Window
+		> <ctrl+w> v/:vs : vertical split Window
+	~ All Window can split in a infinite time only if your screen is large enough
+		> <C-w>w : cycle switch between Windows
+		> <C-w>h : switch to left Window
+		> <C-w>j : switch to down Window
+		> <C-w>k : switch to up Window
+		> <C-W>l : switch to right Window
+* Tab
+	~ Tab can organize Window to be a Workplace
+
+
