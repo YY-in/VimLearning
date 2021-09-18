@@ -1,0 +1,33 @@
+强大的Vim宏（macro）
+
+从一个需求说起，给多行url链接加上双引号
+	1.先给一行加双引号，然后再回到其他所有行
+	2.我们先使用q开始录制，给一行加上双引号，之后使用q退出
+	3.在剩下的所有行回放录制的宏
+
+	url:"https://appengine.google.com"
+	url:"https:	//dev.flurry.com/home.do"
+	url:"https://www.google.com/analytics/web/"
+	url:"http://commons.apache.org/"
+	url:"http://www.playframework.org"
+	url:"http://neo4j.org/"
+	url:"http://www.ibm.com/developerworks/cn/java/j-maven/"
+	url:"http://hudson-ci.org/"
+	url:"seo:http://baiduseoguide.com/bbs/"
+	
+宏可以看作是一系列命令的集合
+
+我们可以用宏来【录制】一系列的操作，然后用于【回放】
+
+宏可以非常方便的吧一系列命令用在多行文本上
+
+宏的使用分为录制和回放，
+
+	VIM使用q来录制，同时使用q来结束录制
+	使用q{register} 选择要保存的寄存器，把录制的命令保存其中
+	使用@{register}回放寄存器中保存的一系列命令
+
+VISUAL MODE下对选定文本使用宏回放
+	1.录制好宏
+	2.v进入VISUAL MODE进行选中
+	3.输入"：normal @{register}"进行回放
