@@ -1,0 +1,11 @@
+VIM 中常见的补全
+
+1.补全单词
+	ctrl + n 
+	ctrl + p
+2.补全文件名
+	ctrl + x
+	ctrl + f
+3.补全代码，需要开启文件类型检查，安装插件
+	ctrl + x
+	ctrl + o
