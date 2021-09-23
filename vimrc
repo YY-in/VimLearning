@@ -30,3 +30,16 @@ noremap <C-l> <C-w>l
 " map <space> viw 将viw（选中一个单词）的操作映射到空格上
 " 用nmap/vmap/imap 定义映射只在normal/visual/insert 分别有效
 "
+ 
+" - 避免使用标准d Vim 目录名称，如 'plugin' 
+" 添加完成后使用 :PlugInsytall
+call  plug#begin ( '~/.vim/plugged' ) 
+Plug 'mhinz/vim-startify'
+Plug 'scrooloose/nerdtree'
+
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'vim-airline/vim-airline'
+Plug 'yggdroot/indentline'
+call  plug#end () 
+
+
